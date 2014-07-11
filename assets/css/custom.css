@@ -1,0 +1,211 @@
+/* General */
+body
+{
+  padding-top: 40px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family:'century gothic', arial, sans-serif;
+}
+p{
+  margin-left: 10px;
+}
+/*Para el pie de página en index*/
+p.filler{
+  height: 100px;
+}
+/*Navegacion*/
+.navbar-fixed-top {
+  margin-bottom: 0px !important;
+}
+.navbar .brand{
+  font: normal 150% 'century gothic', arial, sans-serif;
+  float:right;
+  -webkit-transition: color .2s linear;
+  -moz-transition: color .2s linear;
+  transition: color .2s linear;
+}
+/*Ajustar para que no desaparezca al bajar ratón*/
+ul.dropdown-menu{
+  top:90%;
+}
+/*Para permitir hover*/
+ul.nav li.dropdown:hover > ul.dropdown-menu{
+  display: block;
+}
+a.menu:after, .dropdown-toggle:after {
+  content: none;
+}
+/* Header */
+.jumbotron{
+  background-color: #222;
+  border-bottom: 2px solid #00C5EE;
+}
+
+#logo h1, #logo h2
+{ 
+  font-size: 400%;
+  font-weight: normal;
+  text-transform: none;
+  text-align: center;
+  padding: 40px 0;
+  margin: 0;
+}
+
+#logo h1,#logo h1 a, #logo h1 a:hover
+{ 
+  color: #777;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+#logo h2
+{ font-size: 200%;
+  color: #BBB;
+  padding-top: 0px;
+}
+
+#logo a
+{ border: none;
+}
+
+#logo h1 a .logo_colour
+{ 
+  color: #00C5EE;
+  -webkit-transition: color .2s linear;
+  -moz-transition: color .2s linear;
+  transition: color .2s linear;
+}
+#logo h1 a:hover .logo_colour
+{ 
+  color: #777;
+}
+
+/* Bloque social */
+#social {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 30px;
+}
+/* Pie de pagina */
+footer {
+  text-align: center;
+  padding: 30px 0;
+  padding-bottom: 100px;
+  margin-top: 50px;
+  border-top: 1px solid #00C5EE;
+  background-color: #f2f2fa;
+  font-family: 'century gothic', arial, sans-serif;
+}
+
+footer p {
+  margin-bottom: 0;
+  color: #777;
+}
+/*Icons list*/
+ul.icons{
+  list-style: none;
+  margin:0px;
+}
+ul.icons li{
+  display: inline-block;
+  padding: 10px;
+}
+ul.icons li a img{
+  width: 60px;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  transition: all .2s linear;
+}
+ul.icons li a img:hover{
+  -webkit-filter: brightness(130%);
+}
+/*Programing*/
+.figure{
+  width: 40px;
+  float:left;
+  padding-right: 5px;
+}
+ul.prog{
+  list-style-type: circle;
+  padding-left: 30px;
+}
+ul.prog li{
+ margin-bottom: 3px;
+}
+ul.prog a {
+  text-decoration: none;
+}
+ul.prog li:hover{
+  list-style-type: disc;
+}
+/*Formulario*/
+.form-actions{
+  border-bottom:1px solid #e5e5e5;
+  background-color: transparent;
+}
+fieldset{
+  padding-top: 10px;
+}
+legend{
+  margin-bottom: 0;
+}
+/*Responsiveness*/
+@media (max-width: 980px) and (min-width: 768px){
+  .navbar .brand{
+    float:left;
+  }
+  #logo h1
+  { 
+    font-size: 300%;
+    padding: 30px 0;
+  }
+  #logo h2
+  { 
+    font-size: 150%;
+    padding: 30px 0;
+    padding-top: 0px;
+  }
+  .container h2{
+    font-size: 175%;
+  }
+}
+@media (max-width: 767px){
+  /*Ampliar a toda pantalla en moviles*/
+  .jumbotron, #social, footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+  #logo h1
+  { 
+    font-size: 200%;
+    padding: 10px;
+  }
+  #logo h2
+  { 
+    font-size: 125%;
+    padding: 10px 0;
+    padding-top: 0px;
+  }
+  .navbar .brand{
+    float: left;
+  }
+  ul.icons li a img{
+    width: 50px;
+  }
+  .container h2{
+    font-size: 150%;
+  }
+  ul.prog{
+    padding-left: 5px;
+  }
+  /*Alinear al centro en moviles*/
+  .form-actions{
+    margin: 0;
+    text-align: center;
+  }
+}
+

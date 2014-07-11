@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Contacto | José Ángel García - Página Web Personal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Web sobre mi trayectoria personal">
+  <meta name="author" content="José Ángel García">
+  <meta name="Keywords" content="Jstyl_8,programacion,java,c++,visual c++,c,programas, programas java, juegos java, detector binds,blender,unity,jotal"/>
+
+  <!-- Le styles -->
+  <link href="./assets/css/bootstrap.css" rel="stylesheet">
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link href="./assets/css/custom.css" rel="stylesheet">
+  <link href="./assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="././assets/js/html5shiv.js"></script>
+      <![endif]-->
+
+      <!-- Fav and touch icons -->
+      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./assets/ico/favicon-144.png">
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./assets/ico/favicon-114.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./assets/ico/favicon-72.png">
+      <link rel="apple-touch-icon-precomposed" href="./assets/ico/favicon-57.png">
+      <link rel="shortcut icon" href="./assets/ico/favicon.ico">
+      <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-18858042-3']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+      </script>
+    </head>
+
+    <body>
+      <!-- Navegacion -->
+      <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <a class="brand pull-right" href="index.html">Jstyl_8's Website</a>
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li><a href="index.html"><i class="icon-fixed-width icon-home"></i> Principal</a></li>
+                <li><a href="programacion.html"><i class="icon-fixed-width icon-code"></i> Programación</a></li>
+                <li class="active"><a href="#"><i class="icon-fixed-width icon-envelope"></i> Contacto</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img alt="Spain flag icon" src="./assets/img/spain-flag-icon.png"></i>&nbsp&nbspIdioma <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#"><img alt="Spain flag icon" src="./assets/img/spain-flag-icon.png"> Español</a></li>
+                    <li><a href="./en/contact.html"><img alt="Usa flag icon" src="./assets/img/usa-flag-icon.png"> English</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Header -->
+      <div class="jumbotron">
+        <div class="container">
+          <div id="logo">
+            <h1>
+              <a href="index.html">José Ángel <span class="logo_colour">García</span></a>
+            </h1>
+            <h2>Página Web Personal</h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bloque social -->
+      <div id="social">
+        <div class="container">
+          <ul class="icons">
+            <li><a target="_blank" href="https://twitter.com/jstyl_8"><img src="./assets/img/twitter.png" alt="Twitter icon"></a></li>
+            <li><a target="_blank" href="http://es.linkedin.com/in/joseangelgarcia8"><img src="./assets/img/linkedin.png" alt="Linkedin icon"></a></li>
+            <li><a target="_blank" href="https://plus.google.com/+JoseAngelGarcia"><img src="./assets/img/gplus.png" alt="Google Plus icon"></a></li>
+            <li><a target="_blank" href="https://www.facebook.com/joseangel.garcia.165470"><img src="./assets/img/facebook.png" alt="Facebook icon"></a></li>
+            <li><a target="_blank" href="http://www.jstyl8.blogspot.com"><img class="tright" data-toggle="tooltip" title="Mi blog personal en Blogger" src="./assets/img/blogger.png" alt="Blogger icon"></a></li>
+          </ul></div>
+        </div>
+
+        <!-- Contenido -->
+        <div class="container">
+          <div class="row">
+            <div class="span12">
+              <p>Si quieres ponerte en contacto conmigo puedes hacerlo a traves de las redes sociales que aparecen justo arriba de este texto o si prefieres rellenando el siguiente formulario.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="span12"> <form method="POST" id="contact-form" action="contact-form-submission.php" class="form-horizontal">
+              <fieldset>
+                <legend>Formulario de Contacto</legend>
+                <div class="control-group">
+                  <label class="control-label" for="input1">Nombre</label>
+                  <div class="controls">
+                    <input type="text" name="contact_name" id="input1" class="span4" ><span class="help-inline">(Opcional)</span>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <label class="control-label" for="input2">Correo Electrónico</label>
+                  <div class="controls">
+                    <input type="email" required pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"placeholder="prueba@ejemplo.com"name="contact_email" class="span4" id="input2" ><span class="help-inline">(Obligatorio)</span>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <label class="control-label" for="input3">Mensaje</label>
+                  <div class="controls">
+                    <textarea name="contact_message" required rows="5" placeholder="Escribe aquí el mensaje a enviar" class="span6" id="input3" ></textarea><span class="help-inline"> (Obligatorio)</span>
+                  </div>
+                </div>
+              </fieldset>
+              <div class="form-actions">
+                <input type="hidden" name="save" value="contact">
+                &nbsp&nbsp&nbsp<button id="contact-submit" type="submit" class="btn btn-primary">Enviar</button>&nbsp&nbsp&nbsp
+                <button type="reset" class="btn btn-primary">Borrar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        
+      </div> <!-- /container -->
+
+      <!-- Pie de pagina -->
+      <footer>
+        <div class="container">
+          <p>Diseñada por &copy; José Ángel García </p>
+          <p>Basado en <a href="http://twitter.github.com/bootstrap/">Bootstrap</a></p>
+          <p>Iconos de <a href="http://fortawesome.github.com/Font-Awesome/">Font Awesome</a> y <a href="http://www.designbolts.com">DesignBolts</a></p>
+        </div>
+      </footer>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/custom.js"></script>
+  </body>
+  </html>
