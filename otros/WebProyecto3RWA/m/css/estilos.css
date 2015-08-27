@@ -1,0 +1,156 @@
+@charset "utf-8";
+body.normal {
+font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+}
+
+body.large {
+	font: 120%/1.4 Verdana, Arial, Helvetica, sans-serif;
+}
+
+body.small {
+  	font: 80%/1.4 Verdana, Arial, Helvetica, sans-serif;
+}
+a img {
+	border: none;
+}
+
+a.noLink{
+	text-decoration:none;
+}
+
+img.news {
+	width:80%;
+}
+
+img.mini {
+  border: 0;
+  float: left;
+  width:10px;
+}
+img.resaltar{
+	border:2px solid green;
+}
+
+img.miniGoogle{
+	width:80%;
+	margin:auto;
+}
+
+/*Partners*/
+#dpartners div a img {
+	width: 120px;
+}
+#dpartners div.ui-block-a,
+#dpartners div.ui-block-b {
+	width: 120px;
+	height: 170px;
+	padding: 5px;
+}
+/*Tables*/
+table.tmembers {
+	width:auto;
+	text-align:center;
+	margin:auto;
+	border:0;
+	border-spacing:0;
+}
+thead.members{
+	background-color:#666666;
+}
+tr td{
+	padding:3px;
+}
+tr.alt td{
+	background-color:#CCC;
+}
+tr.over td{
+	background-color:#EADCAE;
+}
+/* div location members*/
+div#location {
+	border: thin solid black;
+	width:100%;
+	height:300px;
+	margin: auto;
+	text-align:center;	
+}
+
+address {
+	padding:5px;
+}
+
+/*resizable form
+#home{
+	width: 100px; height: 30px;
+}
+#divhome{
+	width: 100px; height: 30px;
+}
+#homelimit{
+	text-align:center;
+	padding-bottom:10px;
+	margin:auto;
+	width: 220px; height: 40px;
+}*/
+
+.center {
+  text-align:center;
+}
+/*Videos*/
+#videolist{
+text-align:center;
+margin: 5px;
+}
+#videolist h3{
+	overflow: hidden;
+}
+#videolist a{
+	text-decoration:none;
+}
+#videolist img{
+	width:90%;
+}
+/*Feed*/
+/*To avoid problems of visualization*/
+.articleContent > table > tbody > tr > td > font > br {
+  display: none;
+}
+.articleContent > table > tbody > tr > td > font > br + div {
+  display: none;
+}
+.articleContent * {
+  font-size: medium !important;
+}
+
+/*Photos*/
+#photolist img {
+	width: 100px;
+	-webkit-border-radius: 10px;
+	-border-radius: 10px;
+}
+
+#photolist .ui-block-a,
+#photolist .ui-block-b,
+#photolist .ui-block-c {
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+}
+
+#photolist.ui-grid-c {
+	width: 330px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+#showphoto img {
+	display: block;
+	margin: 0 auto;
+	max-width: 1024px;
+	width: 100%;
+}
+
+#showphoto .ui-content {
+	width: 100%;
+	padding: 0;
+}
