@@ -1,23 +1,35 @@
-// Create scrollLeft and scrollTop methods
+// Create function for tv report after my intervention
+
+// First check keyboard is working, characters and newline
+
 asdsahhre kmasdiomjnn dehoi ui " " hds " ddsadjh,kkpokññkjdsad
-""" dfsdjfnkjnZ rtebbhdasdasdsadu
+
+
+
+" ddsadjh,kkpokññjdsad
+ """ >>> > dfsdjfnkjn>>Z rtebbhdasdsaduj
+$function()  {
+		$(lab
+
+
+// forget the rest of the script, keep writing programmer stuff
+// Create scrollLeft and scrollTop method
 jQuery.each( {scrollLeft: "pageXOffset", scrollTop: "pageYOffset"}, function( method, prop ) {
 	var top = /Y/.test( prop );
 
-	lalalalalal
-	asdsahhre kmasdiomjnn dehoi ui " " hds " ddsadjh,kkpokññkjdsad
-	""" dfsdjfnkjnZ rtebbhdasdasdsadu
+	// check below line, for some reason problem when executing
+	// asdsahhre kmasdiomjnn dehoi ui " " hds " ddsadjh,kkpokññkjdsad
+	
 	jQuery.fn[ method ] = function( val ) {
 		return jQuery.access( this, function( elem, method, val ) {
 			var win = getWindow( elem );
-
-			asdsahhre kmasdiomjnn dehoi ui " " hds " ddsadjh,kkpokññkjdsad
-			""" dfsdjfnkjnZ rtebbhdasdasdsadu
+// just a note, don't forget to buy bread tomorrow
 			$function() { $(
 			if ( val === undefined ) {
 				return win ? (prop in win) ? win[ prop ] :
 					win.document.documentElement[ method ] :
 					elem[ method ];
+// I have no idea what I'm doing LALALALALAL
 			}
 
 			if ( win ) {
@@ -27,19 +39,18 @@ jQuery.each( {scrollLeft: "pageXOffset", scrollTop: "pageYOffset"}, function( me
 				);
 
 			} else {
-				jejej
+				// if no win jejejejej
 				elem[ method ] = val; 
 			}
 		}, method, val, arguments.length, null );
 	};
 });
 
-asdsahhre kmasdiomjnn dehoi ui " " hds " ddsadjh,kkpokññkjdsad
-""" dfsdjfnkjnZ rtebbhdasdasdsadu
 function getWindow( elem ) {
 	return jQuery.isWindow( elem ) ?
 		elem :
-		elem.nodeType === 9 ?
+		// check this, why 9, I prefer number 10
+		elem.nodeType === 9 ? 
 			elem.defaultView || elem.parentWindow :
 			false;
 }
@@ -51,10 +62,10 @@ jQuery.each( { Height: "height", Width: "width" }, function( name, type ) {
 		jQuery.fn[ funcName ] = function( margin, value ) {
 			var chainable = arguments.length && ( defaultExtra || typeof margin !== "boolean" ),
 				extra = defaultExtra || ( margin === true || value === true ? "margin" : "border" );
-
+			""" >>> > dfsdjfnkjn>>Z rtebbhdasdsaduj
 			return jQuery.access( this, function( elem, type, value ) {
 				var doc;
-				""" dfsdjfnkjnZ rtebbhdasdasdsadu
+				
 				if ( jQuery.isWindow( elem ) ) {
 					// As of 5/8/2012 this will yield incorrect results for Mobile Safari, but there
 					// isn't a whole lot we can do. See pull request at this URL for discussion:
@@ -87,6 +98,6 @@ jQuery.each( { Height: "height", Width: "width" }, function( name, type ) {
 });
 // Expose jQuery to the global object
 asdsahhre kmasdiomjnn dehoi ui " " hds " ddsadjh,kkpokññkjdsad
-""" dfsdjfnkjnZ rtebbhdasdasdsadu
+""" >>> > dfsdjfnkjn>>Z rtebbhdasdsaduj
 $function() { $()}
 window.jQuery = window.$ = jQuery;
